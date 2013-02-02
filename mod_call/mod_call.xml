@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+		<!-- Названия модуля -->
+		<name>mod_call</name> 
+ 		<!-- Следующие элементы являются не обязательными, 
+			информация об авторе, копирайте и т.п. -->
+		<creationDate>02.02.13</creationDate>
+		<author>madPO</author>
+		<authorEmail>madpo.s.a@gmail.com</authorEmail>
+		<authorUrl>http://soclan.ru</authorUrl>
+		<copyright>Copyright Info</copyright>
+		<license>License Info</license>
+		<!--  Версия модуля запишется в БД таблица extension -->
+        <version>0.0.1</version>
+        <!-- Описание, не обязательно, по умолчанию использеуется имя модуля -->
+        <description>helloworld description</description>
+ 
+		<!-- Обратите внимание на атрибут folder, он указывает из
+				 какой директории будут копироваться файлы  -->
+        <files>
+                <filename module="mod_call">mod_call.php</filename>
+                <filename>mod_call.xml</filename>
+        </files>
+</extension>
